@@ -1,0 +1,15 @@
+C:\Users\hugop\Documents\VS Code\Hockeymatchen\bin\Debug\net6.0\Hockeymatchen.exe
+C:\Users\hugop\Documents\VS Code\Hockeymatchen\bin\Debug\net6.0\Hockeymatchen.deps.json
+C:\Users\hugop\Documents\VS Code\Hockeymatchen\bin\Debug\net6.0\Hockeymatchen.runtimeconfig.json
+C:\Users\hugop\Documents\VS Code\Hockeymatchen\bin\Debug\net6.0\Hockeymatchen.dll
+C:\Users\hugop\Documents\VS Code\Hockeymatchen\bin\Debug\net6.0\Hockeymatchen.pdb
+C:\Users\hugop\Documents\VS Code\Hockeymatchen\obj\Debug\net6.0\Hockeymatchen.csproj.AssemblyReference.cache
+C:\Users\hugop\Documents\VS Code\Hockeymatchen\obj\Debug\net6.0\Hockeymatchen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hugop\Documents\VS Code\Hockeymatchen\obj\Debug\net6.0\Hockeymatchen.AssemblyInfoInputs.cache
+C:\Users\hugop\Documents\VS Code\Hockeymatchen\obj\Debug\net6.0\Hockeymatchen.AssemblyInfo.cs
+C:\Users\hugop\Documents\VS Code\Hockeymatchen\obj\Debug\net6.0\Hockeymatchen.csproj.CoreCompileInputs.cache
+C:\Users\hugop\Documents\VS Code\Hockeymatchen\obj\Debug\net6.0\Hockeymatchen.dll
+C:\Users\hugop\Documents\VS Code\Hockeymatchen\obj\Debug\net6.0\refint\Hockeymatchen.dll
+C:\Users\hugop\Documents\VS Code\Hockeymatchen\obj\Debug\net6.0\Hockeymatchen.pdb
+C:\Users\hugop\Documents\VS Code\Hockeymatchen\obj\Debug\net6.0\Hockeymatchen.genruntimeconfig.cache
+C:\Users\hugop\Documents\VS Code\Hockeymatchen\obj\Debug\net6.0\ref\Hockeymatchen.dll
