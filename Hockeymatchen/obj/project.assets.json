@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hugop\\Documents\\VS Code\\Hockeymatchen\\Hockeymatchen.csproj",
+      "projectUniqueName": "C:\\Users\\hugop\\OneDrive\\Documents\\GitHub\\Kattis\\Hockeymatchen\\Hockeymatchen.csproj",
       "projectName": "Hockeymatchen",
-      "projectPath": "C:\\Users\\hugop\\Documents\\VS Code\\Hockeymatchen\\Hockeymatchen.csproj",
+      "projectPath": "C:\\Users\\hugop\\OneDrive\\Documents\\GitHub\\Kattis\\Hockeymatchen\\Hockeymatchen.csproj",
       "packagesPath": "C:\\Users\\hugop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hugop\\Documents\\VS Code\\Hockeymatchen\\obj\\",
+      "outputPath": "C:\\Users\\hugop\\OneDrive\\Documents\\GitHub\\Kattis\\Hockeymatchen\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hugop\\AppData\\Roaming\\NuGet\\NuGet.Config",

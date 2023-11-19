@@ -1,27 +1,25 @@
 ﻿using System;
-using System.Xml;
-using System.Xml.XPath;
 
-string input1 = Console.ReadLine(); /*Räddningar, Mål, Skott*/
-string[] rad1 = input1.Split(' ');
-int[] lag1 = Array.ConvertAll(rad1, int.Parse);
+string[] input1 = Console.ReadLine().Split(' ');    //Räddningar, Mål, Skott
+int[] lag1 = Array.ConvertAll(input1, int.Parse);   //0, 1, 2
 
-string input2 = Console.ReadLine();
-string[] rad2 = input2.Split(' ');
-int[] lag2 = Array.ConvertAll(rad2, int.Parse);
+string[] input2 = Console.ReadLine().Split(' ');
+int[] lag2 = Array.ConvertAll(input2, int.Parse);
 
-int[] stats = lag1.Concat(lag2).ToArray();
 
-while(stats[0] == -1 || stats[1] == -1 || stats[2] == -1 || stats[3] == -1 || stats[4] == -1 || stats[5] == -1)
-{
-    if(stats[0] == -1 && (stats[4] != -1 && stats[5] != -1)){int result = Math.Abs(stats[4] - stats[5]); stats[0] = result;}
-    if(stats[1] == -1 && (stats[2] != -1 && stats[3] != -1)){int result = Math.Abs(stats[2] - stats[3]); stats[1] = result;} /*Rätt*/
-    if(stats[2] == -1 && (stats[3] != -1 && stats[1] != -1)){int result = Math.Abs(stats[1] + stats[3]); stats[2] = result;} /*Rätt*/
-    if(stats[3] == -1 && (stats[2] != -1 && stats[1] != -1)){int result = Math.Abs(stats[2] - stats[1]); stats[3] = result;} /*Rätt*/
-    if(stats[4] == -1 && (stats[5] != -1 && stats[0] != -1)){int result = Math.Abs(stats[0] - stats[5]); stats[4] = result;}
-    if(stats[5] == -1 && (stats[0] != -1 && stats[4] != -1)){int result = Math.Abs(stats[4] + stats[0]); stats[5] = result;} /*Rätt*/
-}
-    
-Console.WriteLine($"{stats[0]} {stats[1]} {stats[2]}\n{stats[3]} {stats[4]} {stats[5]}");
+//Om ett lag gjorde inga skott, så gjorde de inga mål
+if(lag1[2] == 0){lag1[1] = 0;} 
+if(lag2[2] == 0){lag2[1] = 0;}
 
-/*NOPE*/
+
+if(lag1[0] == -1 && (lag2[1] != -1 && lag2[2] != -1)){int result = Math.Abs(lag2[2] - lag2[1]); lag1[0] = result;} // ena lagets räddningar är lika med skillnaden mellan det andra lagets mål och skott
+if(lag1[1] == -1 && (lag1[2] != -1 && lag2[0] != -1)){int result = Math.Abs(lag1[2] - lag2[0]); lag1[1] = result;} // ena lagets mål är lika med skillnaden mellan ena lagets skott och andra lagets räddningar
+if(lag1[2] == -1 && (lag2[0] != -1 && lag1[1] != -1)){int result = Math.Abs(lag1[1] + lag2[0]); lag1[2] = result;} // ena lagets skott är lika med summa av ena lagets mål och andra lagets räddningar
+
+if(lag2[0] == -1 && (lag1[2] != -1 && lag1[1] != -1)){int result = Math.Abs(lag1[2] - lag1[1]); lag2[0] = result;} 
+if(lag2[1] == -1 && (lag2[2] != -1 && lag1[0] != -1)){int result = Math.Abs(lag2[2] - lag1[0]); lag2[1] = result;}
+if(lag2[2] == -1 && (lag1[0] != -1 && lag2[1] != -1)){int result = Math.Abs(lag2[1] + lag1[0]); lag2[2] = result;} 
+
+
+
+Console.WriteLine($"{lag1[0]} {lag1[1]} {lag1[2]}\n{lag2[0]} {lag2[1]} {lag2[2]}");
