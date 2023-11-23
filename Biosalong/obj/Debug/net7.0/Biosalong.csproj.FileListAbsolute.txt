@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\VS Code\Biosalong\bin\Debug\net7.0\Biosalong.exe
+C:\Users\Admin\Documents\VS Code\Biosalong\bin\Debug\net7.0\Biosalong.deps.json
+C:\Users\Admin\Documents\VS Code\Biosalong\bin\Debug\net7.0\Biosalong.runtimeconfig.json
+C:\Users\Admin\Documents\VS Code\Biosalong\bin\Debug\net7.0\Biosalong.dll
+C:\Users\Admin\Documents\VS Code\Biosalong\bin\Debug\net7.0\Biosalong.pdb
+C:\Users\Admin\Documents\VS Code\Biosalong\obj\Debug\net7.0\Biosalong.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\VS Code\Biosalong\obj\Debug\net7.0\Biosalong.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\VS Code\Biosalong\obj\Debug\net7.0\Biosalong.AssemblyInfo.cs
+C:\Users\Admin\Documents\VS Code\Biosalong\obj\Debug\net7.0\Biosalong.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\VS Code\Biosalong\obj\Debug\net7.0\Biosalong.dll
+C:\Users\Admin\Documents\VS Code\Biosalong\obj\Debug\net7.0\refint\Biosalong.dll
+C:\Users\Admin\Documents\VS Code\Biosalong\obj\Debug\net7.0\Biosalong.pdb
+C:\Users\Admin\Documents\VS Code\Biosalong\obj\Debug\net7.0\Biosalong.genruntimeconfig.cache
+C:\Users\Admin\Documents\VS Code\Biosalong\obj\Debug\net7.0\ref\Biosalong.dll
