@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\VS Code\Badstrand\bin\Debug\net7.0\Badstrand.exe
+C:\Users\Admin\Documents\VS Code\Badstrand\bin\Debug\net7.0\Badstrand.deps.json
+C:\Users\Admin\Documents\VS Code\Badstrand\bin\Debug\net7.0\Badstrand.runtimeconfig.json
+C:\Users\Admin\Documents\VS Code\Badstrand\bin\Debug\net7.0\Badstrand.dll
+C:\Users\Admin\Documents\VS Code\Badstrand\bin\Debug\net7.0\Badstrand.pdb
+C:\Users\Admin\Documents\VS Code\Badstrand\obj\Debug\net7.0\Badstrand.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\VS Code\Badstrand\obj\Debug\net7.0\Badstrand.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\VS Code\Badstrand\obj\Debug\net7.0\Badstrand.AssemblyInfo.cs
+C:\Users\Admin\Documents\VS Code\Badstrand\obj\Debug\net7.0\Badstrand.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\VS Code\Badstrand\obj\Debug\net7.0\Badstrand.dll
+C:\Users\Admin\Documents\VS Code\Badstrand\obj\Debug\net7.0\refint\Badstrand.dll
+C:\Users\Admin\Documents\VS Code\Badstrand\obj\Debug\net7.0\Badstrand.pdb
+C:\Users\Admin\Documents\VS Code\Badstrand\obj\Debug\net7.0\Badstrand.genruntimeconfig.cache
+C:\Users\Admin\Documents\VS Code\Badstrand\obj\Debug\net7.0\ref\Badstrand.dll
